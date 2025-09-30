@@ -1,0 +1,2 @@
+# ComandosDJANGO
+Comandos iniciais
