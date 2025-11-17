@@ -1,0 +1,17 @@
+Iniciar o servidor: py manage.py runserver
+
+Acessar a pasta: cd BFDFLIX
+
+Iniciar um projeto no Django: django-admin startproject "NomeDoProjeto"
+
+Criar um app dentro do projeto: p -m django startapp "NomeDoApp"
+
+Fazer alterações no sistema: py manage.py migration
+
+Verificar as alterações feitas no sitema: py manage.py makemigrations
+
+Criar um superusuário: py manage.py createsuperuser
+
+
+
+
