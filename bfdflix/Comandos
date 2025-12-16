@@ -14,6 +14,6 @@ Verificar as alterações feitas no sistema
 py manage.py makemigrations
 
 Fazer as alterações no sistema
-py manage,py migrate
+py manage.py migrate
 
 Senha do Superusuário: 123456

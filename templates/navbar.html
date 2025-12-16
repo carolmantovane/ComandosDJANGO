@@ -1,32 +1,34 @@
-<nav class="w-full flex justify-between items-center py-3 px-4 fixed z-50">
-    <div class="w-6/12">
+{% load static %}
+<nav class="w-full flex justify-between items-center py-3 px-4 fixed z-50 bg-black">
+    <div class="flex-shrink-0">
         <a href="#">
-            <img class="w-5/12" src="">"
+        <img class="w-42" src="{% static 'images\logo_main2.png' %}" alt="Logo bfdflix">
         </a>
     </div>
 
-    <div class="w-6/12 flex flex-nowrap justify-end">
-        <div class="mr-2">
+    <div class="flex items-center space-x-3">
+        <div>
             <form>
-                <input type="text" class="bg-white py-1 px-2 rounded-md text-black" placeholder="Pesquisar...">
+                <input type="text" class="bg-white py-1 px-2 rounded-md text-black focus:outline-none focus:ring-2 focus:ring-red-600" placeholder="Pesquisar...">
             </form>
         </div>
-        <div class="mr-2">
+        
+        <div>
             <a href="#">
-                <button class="bg-red-600 text-white py-1 px-3 rounded-md">
+                <button class="bg-red-600 hover:bg-red-700 text-white py-1 px-3 rounded-md transition duration-150">
                     Login
                 </button>
             </a>
         </div>
-        <div class="mr-2">
+        
+        <div>
             <a href="#">
-                <button class="bg-red-600 text-white py-1 px-3 rounded-md">
-                Editar Perfil
+                <button class="bg-red-600 hover:bg-red-700 text-white py-1 px-3 rounded-md transition duration-150">
+                    Editar Perfil
                 </button>
-            </a>    
-
-
+            </a>
         </div>
+        
     </div>
 
 </nav>
